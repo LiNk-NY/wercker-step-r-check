@@ -52,6 +52,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.8
+- Update step.yml to new format
+
 ## 0.0.7
 - Update internal files wercker-step.yml > step.yml and README.md
 

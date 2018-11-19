@@ -1,6 +1,6 @@
 name: r-check
-version: 0.0.8
-description: check R package
+version: 0.0.9
+summary: check R package
 keywords:
   - r
 properties:
