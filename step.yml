@@ -1,10 +1,10 @@
 name: r-check
-version: 0.0.7
+version: 0.0.8
 description: check R package
 keywords:
   - r
 properties:
-  warnings_are_errors:
+  - name: warnings_are_errors
     type: boolean
     required: false
     default: false
