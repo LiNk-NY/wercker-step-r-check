@@ -5,7 +5,7 @@ A step to check an R package.  Best used with one of the
 [rocker](https://registry.hub.docker.com/repos/rocker/) images.
 
 ```yaml
-    - jimhester/r-check
+    - mr148/r-check
 ```
 
 ## Options
@@ -17,13 +17,13 @@ A step to check an R package.  Best used with one of the
 
 Basic usage:
 ```
-    - jimhester/r-check
+    - mr148/r-check
 ```
 
 If you want warnings to fail the build.
 
 ```
-    - jimhester/r-check:
+    - mr148/r-check:
       warnings_are_errors: TRUE
 ```
 
@@ -51,6 +51,12 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
+
+## 0.0.7
+- Update internal files wercker-step.yml > step.yml and README.md
+
+## 0.0.6
+- Update to devtools API
 
 ## 0.0.5
 - Use info rather than echo for filenames when dumping files
